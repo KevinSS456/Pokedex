@@ -22,6 +22,9 @@ const renderPokemon= async (pokemon) => {
     input.value = '';
 
 }
+
+renderPokemon('1')
+
 form.addEventListener('submit', (event)=>{
     event.preventDefault();
     renderPokemon(input.value);
